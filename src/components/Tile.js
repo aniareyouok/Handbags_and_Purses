@@ -16,6 +16,7 @@ function Tile({title, imgtext, image}) {
     } else {
         return <section>
             <h2>{title}</h2>
+
             {/*The map method puts each item of the array in a html paragraph item*/}
             {paragraph.map((p, index) => <p key={index}>{p}</p>)}
         </section>

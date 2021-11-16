@@ -16,6 +16,7 @@ function App() {
       <h1>Handbags & Purses</h1>
 
           {/*Navigation bar with buttons*/}
+          {/*Buttons are at this point not showing names on page or console log message*/}
           <nav>
               <Button>
                   name="to the collection"
