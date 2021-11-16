@@ -79,3 +79,7 @@ article span {
 article p {
     font-size: 10px;
 }
+
+article h4:before {
+    content: "€";
+}
