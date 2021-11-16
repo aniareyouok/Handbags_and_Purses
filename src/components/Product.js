@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 //This is the component for the product gallery with props for image, pricing, title and sticker.
 function Product({sticker, imgtext, image, title, price}) {

@@ -1,10 +1,14 @@
 import React, {Fragment} from 'react';
 import './App.css';
 import Button from './components/Button';
+import Product from './components/Product';
+import Tile from './components/Tile';
 import bag_1 from './assets/bag_1.png';
 import bag_2 from './assets/bag_2.png';
 import bag_3 from './assets/bag_3.png';
 import bag_4 from './assets/bag_4.png';
+import brand from './assets/brand.png';
+import our_story from './assets/our_story.png';
 
 function App() {
   return (
@@ -62,6 +66,28 @@ function App() {
                   price="150"
               />
           </main>
+
+          {/*Footer with four tiles*/}
+          <footer>
+              <Tile
+                  title="The brand"
+                  text={Text}
+              />
+              <Tile
+                  image={brand}
+                  imgtext="picture of brand or designer"
+              />
+              <Tile
+                  image={our_story}
+                  imgtext="picture of brand or designer"
+              />
+              <Tile
+                  title="Our story"
+                  text={Text}
+              />
+
+          </footer>
+
         </Fragment>
   )}
 
