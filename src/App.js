@@ -9,6 +9,7 @@ import bag_3 from './assets/bag_3.png';
 import bag_4 from './assets/bag_4.png';
 import brand from './assets/brand.png';
 import our_story from './assets/our_story.png';
+import Text from "./assets/Text";
 
 function App() {
   return (
