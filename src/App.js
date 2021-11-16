@@ -13,26 +13,24 @@ import our_story from './assets/our_story.png';
 function App() {
   return (
       <Fragment>
-      <h1>Handbags & Purses</h1>
-
-          {/*Navigation bar with buttons*/}
-          {/*Buttons are at this point not showing names on page or console log message*/}
+          {/*Navigation bar with title and buttons*/}
           <nav>
-              <Button>
+          <h1>Handbags & Purses</h1>
+              <Button
                   name="to the collection"
                   message="To the Collection"
                   disabled={false}
-              </Button>
-              <Button>
+              />
+              <Button
                   name="shop all bags"
                   message="Shop all bags"
                   disabled={false}
-              </Button>
-              <Button>
+              />
+              <Button
                   name="pre-orders"
                   message="To Pre-Orders"
                   disabled={true}
-              </Button>
+              />
           </nav>
 
           {/*Product gallery*/}
@@ -69,6 +67,7 @@ function App() {
           </main>
 
           {/*Footer with four tiles*/}
+          {/*Text is imported from Text.js with function that splits de text in paragraphs*/}
           <footer>
               <Tile
                   title="The brand"
