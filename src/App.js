@@ -13,9 +13,11 @@ import our_story from './assets/our_story.png';
 function App() {
   return (
       <Fragment>
-          {/*Navigation bar with title and buttons*/}
-          <nav>
+
           <h1>Handbags & Purses</h1>
+
+          {/*Navigation bar with buttons*/}
+          <nav>
               <Button
                   name="to the collection"
                   message="To the Collection"
