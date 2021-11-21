@@ -12,6 +12,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1046px;
 }
 
 section {
@@ -77,4 +78,8 @@ article span {
 
 article p {
     font-size: 10px;
+}
+
+article h4:before {
+    content: "€";
 }
